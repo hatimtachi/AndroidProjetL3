@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/top_connexion"
+                />
+            <EditText
+                android:layout_margin="15dp"
+                android:id="@+id/E_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:inputType="textWebEmailAddress"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:layout_margin="15dp"
+                android:id="@+id/E_MDP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/MDP"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_marginTop="15dp"
+                />
+            <Button
+                android:id="@+id/Btn_connexion"
+                android:textColor="@android:color/white"
+                android:text="@string/connexion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:background="@android:color/background_dark" />
+            <Button
+                android:id="@+id/Btn_MDP_O"
+                android:text="@string/MDP_oublie"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/blue00"
+                android:textStyle="normal|bold|italic" />
+            <Button
+                android:layout_margin="20dp"
+                android:id="@+id/Btn_creation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creation_compte"
+                android:background="@android:drawable/editbox_background_normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

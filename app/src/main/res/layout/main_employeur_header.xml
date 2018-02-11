@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/back_employeur_head"
+    android:orientation="vertical"
+    android:id="@+id/Menu_E_main_header"
+    >
+
+    <TextView
+        android:id="@+id/Menu_Emploi_H_TextV_Nom_Prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Menu_Emploi_H_TextV_Email"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="165dp"
+        android:textSize="16dp"
+
+        />
+
+</RelativeLayout>

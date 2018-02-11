@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@drawable/line"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:id="@+id/drd"
+        />
+
+    <TextView
+        android:id="@+id/TextV_main_emploi_Competence_textlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageButton
+        android:id="@+id/Btn_main_emploi_Competence_textlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/delete"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>

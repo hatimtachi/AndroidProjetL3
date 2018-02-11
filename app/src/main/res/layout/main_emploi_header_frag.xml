@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/background_main_emploi_frag"
+    android:orientation="vertical"
+    android:id="@+id/Menu_E_main_header_frag"
+    >
+
+</RelativeLayout>

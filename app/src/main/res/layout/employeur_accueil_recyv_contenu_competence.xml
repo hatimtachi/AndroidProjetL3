@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@drawable/line"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:id="@+id/dr"
+        />
+    <TextView
+        android:id="@+id/employeur_accueil_recyclerview_contenu_competence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dr"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/E_saisqui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/E_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/MDP"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/Btn_create"
+        android:textColor="@android:color/white"
+        android:text="@string/connexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@android:color/background_dark" />
+    <Button
+        android:id="@+id/Btn_get"
+        android:textColor="@android:color/white"
+        android:text="getInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@android:color/background_dark" />
+</LinearLayout>
